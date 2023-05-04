@@ -1,0 +1,130 @@
+/* Body */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #e6f1f7;
+}
+
+/* Headings */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px 0;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #333333;
+}
+
+/* Lists */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+/* Code examples */
+code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  padding: 2px 5px;
+  border: 1px solid #ccc;
+}
+
+pre {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  white-space: pre-wrap;
+}
+
+/* HTML tags */
+body ul {
+  list-style: none;
+}
+
+body ul li:before {
+  content: "▹";
+  color: #666;
+  margin-right: 5px;
+}
+
+body #h1 {
+  background-color: #c5e5ff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+body #h2 {
+  border-bottom: 2px solid #333333;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+body ul li:nth-child(odd) {
+  background-color: #f1f1f1;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+body ul li:nth-child(even) {
+  background-color: #f9f9f9;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+body ul li:hover {
+  background-color: #ccc;
+}
+
+/* CSS properties */
+body #css-properties {
+  background-color: #ffc5c5;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+body #css-properties ul li {
+  margin: 10px 0;
+}
+
+body #css-properties ul li:nth-child(odd) {
+  background-color: #ffe2e2;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+body #css-properties ul li:nth-child(even) {
+  background-color: #fff1f1;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+body #css-properties ul li:hover {
+  background-color: #ffabab;
+}
+
+a {
+  color: #0366d6; /* Sets the color of the hyperlink */
+  text-decoration: none; /* Removes the default underline */
+  border-bottom: 1px solid #0366d6; /* Adds a bottom border */
+  transition: bottom 0.2s ease-in-out; /* Adds a smooth transition */
+  }
+a:hover {
+  border-bottom: 2px solid #0366d6; /* Increases the thickness of the border on hover */
+}
+
