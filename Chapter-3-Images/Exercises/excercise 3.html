@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Exhibition</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .exhibition {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .exhibition img {
+      width: 500px;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      filter: grayscale(10%);
+      transition:0.5s ease-in-out;
+    }
+
+    .exhibition img:hover {
+      filter: grayscale(0%);
+    }
+
+    .exhibition img:first-child {
+      filter: hue-rotate(180deg);
+    }
+
+    .exhibition img:nth-child(2) {
+      filter: sepia(50%);
+    }
+
+    .exhibition img:last-child {
+      filter: invert(100%);
+    }
+
+    .caption {
+      font-size: 16px;
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="exhibition">
+    <div class="image">
+      <img src="stphto1.jpg" alt="street photography" title="Photo by Paulo Silva on unsplash">
+      <div class="caption">Copyright:Photo by <strong>Paulo Silva on unsplash</strong></div>
+      <br><br>
+    </div>
+    <div class="image">
+      <img src="stphto2.jpg" alt="street photography" width="1920" height="500" title="Photo by Dyana Wing So on Unsplash">
+      <div class="caption">Copyright:Photo by <strong>Dyana Wing So on Unsplash</strong></div>
+      <br><br>
+    </div>
+    <div class="image">
+      <img src="stphto3.jpg" alt="street photography" width="1920" height="500" title="Photo by Paulo Silva on Unsplash">
+      <div class="caption">Copyright:Photo by <strong>Paulo Silva on Unsplash</strong></div>
+      <br><br>
+    </div>
+  </div>
+</body>
+</html>
